@@ -1,0 +1,177 @@
+body{
+    /* background-color: #F72C5B; */
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-image: url(./myStrawberry/IMG_0066.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.main-program{
+    margin: auto;
+    width: 700px;
+    height: 400px;
+    border: 40px solid rgb(255, 162, 196);
+    border-radius: 15px;
+    position: absolute;
+    padding: 20px 30px;
+    background-color: #8bca72d0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* background-image: url(./myStrawberry/IMG_0066.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+.center{
+    justify-items: center;
+    width: 700px;
+    height: 400px;
+}     
+
+ h1{
+    border: 2px sienna double;
+    font-family: "Bitcount Grid Double", system-ui;
+    color: rgb(116, 57, 30);
+    letter-spacing: 4px;
+    margin-top: 0;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./myStrawberry/IMG_0061.jpeg);
+}
+.code-number{
+    border-radius: 50%;
+    width:26px;
+    height: 40px;
+    border: none;
+    background-color: #c1ff72;
+    color: white;
+    font-family: "Fredoka", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 16px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+.code-number:focus{
+    outline: none;
+}
+.code-number::placeholder{
+    color: white;
+}
+textarea {
+    resize:none;
+    border-radius: 15px;
+    background-color:#E4F1AC;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 17px;
+    padding: 5px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 10px 50px;
+    
+    
+}
+textarea:focus{
+    outline: none;
+    border:2px double rgb(166, 28, 0) ;
+    
+}
+textarea::placeholder{
+    padding: 10px;
+    font-family: "Fredoka", sans-serif;
+    
+}
+.encode{
+    background-color: #60eb54;
+    border:none;
+    padding: 5px 15px;
+    color: white;
+    font-weight: 800;
+    font-family: "Fredoka", sans-serif;
+    font-size: 25px;
+    margin-right: 25px ;
+    
+
+}
+.encode:hover{
+    background-color: #ffedfe;
+    color: rgb(90, 78, 78);
+}
+
+.decode{
+    background-color: #ff3131;
+    border:none;
+    padding:5px 15px;
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+    font-family: "Fredoka", sans-serif;
+    margin-right: 25px 
+}
+.decode:hover{
+    background-color: #ffedfe;
+    color: rgb(84, 76, 76);
+}
+#reload{
+    
+    background-color: #1dc5df;
+    border:none;
+    padding:5px 15px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+    font-family: "Fredoka", sans-serif;
+    margin-right: 25px 
+    
+}
+#reload:hover{
+    background-color: #ffdfea;
+}
+.reload{
+    width: 30px;
+    height: 30px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 30
+}
+/* .decor-banner{
+    width: 100%;
+    height: 210px;
+    z-index: -100;
+    /* background-color: #6ed97c;
+    background-image: url(./myStrawberry/IMG_0060.jpeg);
+    background-size: cover;
+    background-position: center;
+    filter:blur(3px) 
+} */
+
+/* Secret Message */
+
+#newMessage{
+    width: 550px;
+    height: 250px;
+    background-color: #ffdfea;
+    font-family: "Fredoka", sans-serif;
+    display: none;
+    border-radius: 15px ;  
+    margin-bottom: 17px;
+    padding: 5px;
+    
+}
+
+.computer{
+    justify-content: center;
+}
